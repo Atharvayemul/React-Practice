@@ -8,6 +8,24 @@
     <script>
         let a = 34;
         console.log(a);
+
+        function hello() {
+            console.log('This is me')
+        }
+
+        let obj1 = {
+            r: 34,
+            m: 64,
+            func: function myfun(number) {
+                console.log('The number is ' + number)
+            }
+        }
+
+        document.addEventListener("click", function click() {
+            <!-- alert("Button clicked") -->
+            let conf = confirm("Are You sure")
+            console.log(conf)
+        })
     </script>
 </head>
 
